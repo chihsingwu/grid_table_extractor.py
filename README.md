@@ -36,18 +36,18 @@ pandas
 openpyxl # For broader Excel compatibility (e.g. if dealing with .xlsx outputs from other tools)
 
 ```
-Future Enhancements (Vision)
+## ✨ Future Enhancements (Vision)
 This engine is a foundation. Future work could include:
 
-Advanced Grid Inference: Implementing sophisticated Computer Vision (CV) and Deep Learning (DL) techniques (like those involving CNNs) to infer grid lines in tables that lack visible borders, based on text alignment and spacing cues.
+* **Advanced Grid Inference: Implementing sophisticated Computer Vision (CV) and Deep Learning (DL) techniques (like those involving CNNs) to infer grid lines in tables that lack visible borders, based on text alignment and spacing cues.
 
-Deep Data Logic Integration: Further leveraging pandas to apply advanced data validation rules and contextual logic to the extracted content, enabling more complex "fill-in-the-blanks" or consistency checks within the table data.
+* **Deep Data Logic Integration: Further leveraging pandas to apply advanced data validation rules and contextual logic to the extracted content, enabling more complex "fill-in-the-blanks" or consistency checks within the table data.
 
-Mathematical Formula Extraction: Integrating specialized tools for extracting and structuring mathematical formulas.
+* **Mathematical Formula Extraction: Integrating specialized tools for extracting and structuring mathematical formulas.
 
-Image/Figure Caption Extraction: Identifying and linking captions to corresponding figures.
+* **Image/Figure Caption Extraction: Identifying and linking captions to corresponding figures.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Mathematical Formula Extraction: Integrating specialized tools for extracting and structuring mathematical formulas.
