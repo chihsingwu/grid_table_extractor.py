@@ -34,31 +34,9 @@ requirements.txt content:
 pdfplumber
 pandas
 openpyxl # For broader Excel compatibility (e.g. if dealing with .xlsx outputs from other tools)
-🛠️ Usage
-To extract tables from a PDF file, run the script from your terminal:
 
-Bash
-
-python grid_table_extractor.py --input path/to/your/document.pdf --output extracted_tables.json
---input: Path to the PDF file you want to process (e.g., paper1.pdf).
-
---output: (Optional) Path to save the extracted tables in JSON format. If omitted, the JSON output will be printed to the console.
-
---debug: (Optional) Add this flag to enable detailed debug logging.
-
-Example:
-
-Bash
-
-python grid_table_extractor.py --input documents/sample_paper.pdf --output output/extracted_tables.json --debug
-💡 Future Enhancements (Vision)
-This engine is a foundation. Future work could include:
-
-Advanced Grid Inference: Implementing sophisticated Computer Vision (CV) and Deep Learning (DL) techniques (like those involving CNNs) to infer grid lines in tables that lack visible borders, based on text alignment and spacing cues.
-
-Deep Data Logic Integration: Further leveraging pandas to apply advanced data validation rules and contextual logic to the extracted content, enabling more complex "fill-in-the-blanks" or consistency checks within the table data.
-
-💡 Future Enhancements (Vision)
+```
+Future Enhancements (Vision)
 This engine is a foundation. Future work could include:
 
 Advanced Grid Inference: Implementing sophisticated Computer Vision (CV) and Deep Learning (DL) techniques (like those involving CNNs) to infer grid lines in tables that lack visible borders, based on text alignment and spacing cues.
