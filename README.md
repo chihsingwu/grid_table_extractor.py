@@ -50,9 +50,4 @@ This engine is a foundation. Future work could include:
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Mathematical Formula Extraction: Integrating specialized tools for extracting and structuring mathematical formulas.
 
-Image/Figure Caption Extraction: Identifying and linking captions to corresponding figures.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
